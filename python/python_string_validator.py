@@ -1,0 +1,6 @@
+s = list(raw_input().strip())
+print any(map(lambda x: x.isalnum(), s))
+print any(map(lambda x: x.isalpha(), s))
+print any(map(lambda x: x.isdigit(), s))
+print any(map(lambda x: x.islower(), s))
+print any(map(lambda x: x.isupper(), s))
